@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    padding: 100px;
+}
+
+@media screen and (max-width: 600px){
+    body {
+        padding: 30px;
+    }
+ 
+}
+
+.submit-area{
+    padding: 30px;
+    margin: 30px 0px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+input[type="submit"]{
+    padding: 4px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: forestgreen;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: slateblue;
+}
+
+#transaction-area {
+    display: none;
+}
+
+.deposit {
+    background-color: slateblue;
+}
+
+.withdraw {
+    background-color: darkcyan;
+}
+
+.balance {
+    background-color: green;
+}
+
+.status {
+    margin: 0 20px;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+
+
